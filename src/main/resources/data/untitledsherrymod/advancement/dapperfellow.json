@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "untitledsherrymod:dapperies"
+    },
+    "title": "Dapper Fellow",
+    "description": "Obtain the Dapperies item, which contains a hat and bowtie.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "untitledsherrymod:root_advancement",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "untitledsherrymod:dapperies"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

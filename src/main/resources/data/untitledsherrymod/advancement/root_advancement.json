@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "untitledsherrymod:root_icon_item"
+    },
+    "title": "Sherry or Cherry...?",
+    "description": "Welcome to the Untitled Sherry Mod!",
+    "background": "minecraft:textures/block/cherry_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
